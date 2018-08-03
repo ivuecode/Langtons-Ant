@@ -22,4 +22,7 @@ There are a few points to consider when using this application:
 
 ## Contributing :muscle:
 Looking to contribute something to this project? **Here's how you can help.**  
-If you believe something needs to be immediately fixed please open an issue and document the problem. Fork this project and create a pull request with your solution to the problem. Thank you.
+If you believe something needs to be immediately fixed please open an issue and document the problem. Fork this project and create a pull request with your solution to the problem. Thank you.  
+
+[VueCode YouTube](https://www.youtube.com/channel/UCtP-1zQ2g_jpgYvvBqkWltA)  
+[VueCode Twitter](https://twitter.com/VueCode/)  
