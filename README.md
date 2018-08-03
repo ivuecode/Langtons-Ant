@@ -7,7 +7,7 @@ Langton’s Ant is a two-dimensional universal Turing machine with a very simple
 * At a filled square, turn 90° left, flip the color of the square, move forward one unit
 
 ## Preview :eyes:
-![Preview](preview.gif)  
+![Preview](https://i.imgur.com/hrezp31.gif)  
 A single instance of Langtons Ant created in Unity at runtime.
 
 ## Getting Started :page_with_curl:
