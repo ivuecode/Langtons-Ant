@@ -35,7 +35,9 @@ public class CellUpdater : MonoBehaviour
         {
             if (_isEmpty)
             {
-                _renderer.material = ActiveCell;
+                // get the ants color and set the active color here
+                _renderer.material.color = other.GetComponent<AntController>().AntColor;
+                // _renderer.material = ActiveCell;
                 gameObject.tag = "CellRight";
             }
             if (!_isEmpty)

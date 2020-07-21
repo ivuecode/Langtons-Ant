@@ -53,7 +53,8 @@ public class MouseController : MonoBehaviour
             if (hit.transform != null && Input.GetMouseButtonDown(0))
             {
                 GameObject ant = Instantiate(AntPrefab, new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z), Quaternion.identity);
-                ant.GetComponentInChildren<MeshRenderer>().material.color = HeadColors[Random.Range(0, HeadColors.Length)];
+                Color tmpColor = HeadColors[Random.Range(0, HeadColors.Length)];
+                ant.GetComponent<AntController>().AntColor = tmpColor;
             }
         }
     }

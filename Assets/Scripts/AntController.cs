@@ -12,6 +12,7 @@ public class AntController : MonoBehaviour
     [Header("Ant Settings")]
     [Range(0.02f, 1f)]
     public float UpdateTime = 0.025f;                     // Set your own update time (f-seconds)
+    public Color AntColor;
 
     [Header("Private Variables")]
     private Vector3 _rotation;                             // ants local roation.
